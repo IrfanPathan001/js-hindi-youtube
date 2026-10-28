@@ -26,20 +26,31 @@ const obj2 = {5: "e", 6: "f", 7: "g", 8: "h"}
 //const obj3 = Object.assign({} , obj, obj2)
 
 const obj3 = {...obj, ...obj2}
-console.log(obj3);
+//console.log(obj3);
 
 
 
-console.log(tinder);
-console.log(Object.keys(tinder));
-console.log(Object.values(tinder));
-console.log(Object.entries(tinder));
+// console.log(tinder);
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder));
+// console.log(Object.entries(tinder));
 
-console.log(tinder.hasOwnProperty("isloggedin"));
-
-
+// console.log(tinder.hasOwnProperty("isloggedin"));
 
 
 
+const course = { 
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "irfan"
+}
 
+const {courseInstructor} = course;
+console.log(courseInstructor);
+
+[
+    {},
+    {},
+    {}
+];
 
